@@ -8,11 +8,11 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     borderRadius: 8,
-    backgroundColor: theme.color.primary,
+    backgroundColor: theme.colors.primary,
   },
   title: {
     flex: 1,
-    color: theme.color.heading,
+    color: theme.colors.heading,
     fontSize: 15,
     textAlign: "center",
   },
@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderRightWidth: 1,
-    borderRightColor: theme.color.line,
+    borderRightColor: theme.colors.line,
   },
   icon: {
     width: 24,
